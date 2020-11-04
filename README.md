@@ -1164,14 +1164,14 @@ Crear un GitHub Pages: https://pages.github.com/
 https://platzi.com/clases/1557-git-github/19976-tu-sitio-web-publico-con-github-pages/ 
 
 
-## Git Rebase: reorganizando el trabajo realizado
+## Git Rebase.Reorganizando el trabajo realizado
 El comando rebase es una mala práctica, nunca se debe usar, pero para efectos del curso te lo vamos a enseñar para que hagas tus propios experimentos. Con rebase puedes recoger todos los cambios confirmados en una rama y ponerlos sobre otra. 
 
-# Cambiamos a la rama que queremos traer los cambios  
+Cambiamos a la rama que queremos traer los cambios  
 
 git checkout experiment  
 
-# Aplicamos rebase para traer los cambios de la rama que queremos 
+Aplicamos rebase para traer los cambios de la rama que queremos 
 
  $git rebase master desde la rama experimento.Primero hacer el rebase en la rama trayendo el master y luego hacer el rebase en el master trayendo a la rama 
 
@@ -1194,7 +1194,7 @@ git checkout mastergit rebase feature
 
 Nunca debes reorganizar las confirmaciones una vez que se hayan enviado a un repositorio público. La reorganización sustituiría las confirmaciones antiguas por las nuevas y parecería que esa parte del historial de tu proyecto se hubiera desvanecido de repente. 
 
-## Git Stash: Guardar cambios en memoria y recuperarlos después ESTO ES IMPORTANTE LO VAMOS A USAR 
+## Git Stash.Guardar cambios en memoria y recuperarlos después ESTO ES IMPORTANTE LO VAMOS A USAR 
 Recordamos nuestra funcion  
 
  $gitk que nos muestra todo el historal 
@@ -1289,7 +1289,7 @@ Al crear un stash tomará los archivos que han sido modificados y eliminados. Pa
 
 Al aplicar un stash este no se elimina, es buena práctica eliminarlo. 
 
-##  Git Clean: limpiar tu proyecto de archivos no deseados 
+##  Git Clean.Limpiar tu proyecto de archivos no deseados 
 A veces creamos archivos cuando estamos realizando nuestro proyecto que realmente no forman parte de nuestro directorio de trabajo, que no se deberían agregar y lo sabemos. 
 
 Para saber qué archivos vamos a borrar tecleamos git clean --dry-run 
@@ -1310,7 +1310,7 @@ Simula la eliminación de archivos, ¿tienes dudas de que archivos eliminará?, 
 
 Archivos que se hayan modificado o editados git clean no interviene aquí. 
 
-## Git cherry-pick: traer commits viejos al head de un branch 
+## Git cherry-pick.Traer commits viejos al head de un branch 
  Existe un mundo alternativo en el cual vamos avanzando en una rama pero necesitamos en master uno de esos avances de la rama, para eso utilizamos el comando git cherry-pick IDCommit. 
 
 cherry-pick es una mala práctica porque significa que estamos reconstruyendo la historia, usa cherry-pick con sabiduría. Si no sabes lo que estás haciendo ten mucho cuidado. 
@@ -1378,7 +1378,7 @@ tl:dr
 Es una mala práctica enmendar un commit que ya ha sido pusheado al repositorio remoto. 
 
 
-## Git Reset y Reflog: úsese en caso de emergencia 
+## Git Reset y Reflog.Úsese en caso de emergencia 
 Git branch –D <nombre de la rama> BORRA LA RAMA 
 
  
