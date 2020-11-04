@@ -9,8 +9,11 @@ El contenido de este documento esta basado en el curso del mismo nombre dictado 
 
 # Tabla de contenido
 - [Comandos básicos en Git](#Comandos-básicos-en-Git)
-  - [¿Qué es el staging y los repositorios? Ciclo básico de trabajo en Git](#Qué-es-el staging-y-los-repositorios?-Ciclo-básico-de-trabajo-en-Git)
-  - [¿Qué es un Branch y cómo funciona un Merge en Git?](#¿Qué-es-un-Branch-y-cómo funciona-un-Merge-en-Git?)
+  - [¿Qué es el staging y los repositorios? Ciclo básico de trabajo en Git](#¿Qué-es-el-staging-y-los-repositorios?-Ciclo-básico-de-trabajo-en-Git)
+  - [¿Qué es un Branch y cómo funciona un Merge en Git?](#¿Qué-es-un-Branch-y-cómo-funciona-un-Merge-en-Git?)
+
+
+  
   - [Crea un repositorio de Git y haz tu primer commit](#Crea-un-repositorio-de-Git-y-haz-tu-primer-commit)
   - [Analizar cambios en los archivos de tu proyecto con Git](#Analizar-cambios-en-los-archivos-de-tu-proyecto-con-Git)
   - [Git reset vs. Git rm](#Git-reset-vs.-Git-rm)
@@ -25,18 +28,18 @@ El contenido de este documento esta basado en el curso del mismo nombre dictado 
 - [Trabajando con repositorios remotos en GitHub](#Trabajando-con-repositorios-remotos-en-GitHub)
   - [Uso de GitHub](#Uso-de-GitHub)
   - [Cómo funcionan las llaves públicas y privadas](#Cómo-funcionan-las-llaves-públicas-y-privadas)
-  - [Configura tus llaves SSH en local](#Configura-tus-laves-SH-en-local)
+  - [Configura tus llaves SSH en local](#Configura-tus-llaves-SSH-en-local)
   - [Conexión a GitHub con SSH](#Conexión-a-GitHub-con-SSH)
-  - [Tags y versiones en Git y GitHub](#Tags-y-versiones en Git-y-GitHub)
+  - [Tags y versiones en Git y GitHub](#Tags-y-versiones-en-Git-y-GitHub)
   - [Manejo de ramas en GitHub](#Manejo-de-ramas-en-GitHub)
-  - [Configurar múltiples colaboradores en un repositorio de GitHub](#Configurar-múltiples-colaboradores-en-un repositorio-de-GitHub)
+  - [Configurar múltiples colaboradores en un repositorio de GitHub](#Configurar-múltiples-colaboradores-en-un-repositorio-de-GitHub)
   
 - [Flujos de trabajo profesionales](#Flujos-de-trabajo-profesionales)
   - [Flujo de trabajo profesional: Haciendo merge de ramas de desarrollo a master](#Flujo-de-trabajo-profesional:-Haciendo-merge-de-ramas-de-desarrollo-a-master)
   - [Flujo de trabajo profesional con Pull requests](#Flujo-de-trabajo-profesional-con-Pull-requests)
   - [Utilizando Pull Requests en GitHub](#Utilizando-Pull-Requests-en-GitHub)
   - [Creando un Fork, contribuyendo a un repositorio](#Creando-un-Fork,-contribuyendo-a-un-repositorio)
-  - [Haciendo deployment a un servidor](#Haciendo-deployment -a-un-servidor)
+  - [Haciendo deployment a un servidor](#Haciendo-deployment-a-un-servidor)
   - [Hazme un pull request](#Hazme-un-pull-request)
   - [Ignorar archivos en el repositorio con .gitignore](#Ignorar-archivos-en-el-repositorio-con-.gitignore)
   - [Readme.md es una excelente práctica](#Readme.md-es-una-excelente-práctica)
@@ -44,13 +47,13 @@ El contenido de este documento esta basado en el curso del mismo nombre dictado 
   
 - [Multiples entornos de trabajo en Git](#Multiples-entornos-de-trabajo-en-Git)
   - [Git Rebase: reorganizando el trabajo realizado](#Git-Rebase:-reorganizando-el-trabajo-realizado)
-  - [Git Stash: Guardar cambios en memoria y recuperarlos después ESTO ES IMPORTANTE LO VAMOS A USAR](#Git Stash:-Guardar-cambios-en-memoria-y-recuperarlos-después-ESTO-ES-IMPORTANTE-LO-VAMOS-A-USAR)
+  - [Git Stash: Guardar cambios en memoria y recuperarlos después ESTO ES IMPORTANTE LO VAMOS A USAR](#Git-Stash:-Guardar-cambios-en-memoria-y-recuperar-los-después-ESTO-ES-IMPORTANTE-LO-VAMOS-A-USAR)
   - [Git Clean: limpiar tu proyecto de archivos no deseados](#Git-Clean:-limpiar-tu-proyecto-de-archivos-no-deseados)
   - [Git cherry-pick: traer commits viejos al head de un branch](#Git-cherry-pick:-traer-commits-viejos-al-head-de-un-branch)
 - [Comandos de Git para casos de emergencia](#Comandos-de-Git-para-casos-de-emergencia)
   - [Reconstruir commits en Git con amend](#Reconstruir-commits-en-Git-con-amend)
   - [Git Reset y Reflog: úsese en caso de emergencia](#Git-Reset-y-Reflog:-úsese-en-caso-de-emergencia)
-  - [Buscar en archivos y commits de Git con Grep y log](#Buscar-en-archivos-y-commits de-Git-con-Grep-y-log)
+  - [Buscar en archivos y commits de Git con Grep y log](#Buscar-en-archivos-y-commits-de-Git-con-Grep-y-log)
 - [Comandos y recursos colaborativos en Git y GitHub](#Comandos-y-recursos-colaborativos-en-Git-y-GitHub)
 
 # Comandos básicos en Git
@@ -322,7 +325,7 @@ Bueno, todos los cambios están en el área de Staging, incluido el archivo con 
 En cambio, si usamos `git reset HEAD`, lo único que haremos será mover estos cambios de Staging a Unstaged. Seguiremos teniendo los últimos cambios del archivo, el repositorio mantendrá el archivo (no con sus últimos cambios pero sí con los últimos en los que hicimos commit) y no habremos perdido nada. 
 
 Conclusión: Lo mejor que puedes hacer para salvar tu puesto y evitar un incendio en tu trabajo es conocer muy bien la diferencia y los riesgos de todos los comandos de Git. 
-
+# Flujo de trabajo básico en Git
 ## Flujo de trabajo básico con un repositorio remoto
 Por ahora, nuestro proyecto vive únicamente en nuestra computadora. Esto significa que no hay forma de que otros miembros del equipo trabajen en él. 
 
