@@ -48,7 +48,7 @@ El contenido de este documento esta basado en el curso del mismo nombre dictado 
 - [Multiples entornos de trabajo en Git](#Multiples-entornos-de-trabajo-en-Git)
 
   - [Git Rebase.Reorganizando el trabajo realizado](#Git-Rebase.Reorganizando-el-trabajo-realizado)
-  - [Git Stash.Guardar cambios en memoria y recuperarlos después ESTO ES IMPORTANTE LO VAMOS A USAR](#Git-Stash:Guardar-cambios-en-memoria-y-recuperar-los-después-ESTO-ES-IMPORTANTE-LO-VAMOS-A-USAR)
+  - [Git Stash.Guardar cambios en memoria y recuperarlos después ESTO ES IMPORTANTE LO VAMOS A USAR](#Git-Stash.Guardar-cambios-en-memoria-y-recuperar-los-después-ESTO-ES-IMPORTANTE-LO-VAMOS-A-USAR)
   - [Git Clean.Limpiar tu proyecto de archivos no deseados](#Git-Clean.Limpiar-tu-proyecto-de-archivos-no-deseados)
   - [Git cherry-pick.Traer commits viejos al head de un branch](#Git-cherry-pick.Traer-commits-viejos-al-head-de-un-branch)
 - [Comandos de Git para casos de emergencia](#Comandos-de-Git-para-casos-de-emergencia)
