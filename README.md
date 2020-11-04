@@ -35,7 +35,7 @@ El contenido de este documento esta basado en el curso del mismo nombre dictado 
   - [Configurar múltiples colaboradores en un repositorio de GitHub](#Configurar-múltiples-colaboradores-en-un-repositorio-de-GitHub)
   
 - [Flujos de trabajo profesionales](#Flujos-de-trabajo-profesionales)
-  - [Flujo de trabajo profesional: Haciendo merge de ramas de desarrollo a master](#Flujo-de-trabajo-profesional:-Haciendo-merge-de-ramas-de-desarrollo-a-master)
+  - [Flujo de trabajo profesional.Haciendo merge de ramas de desarrollo a master](#Flujo-de-trabajo-profesional.Haciendo-merge-de-ramas-de-desarrollo-a-master)
   - [Flujo de trabajo profesional con Pull requests](#Flujo-de-trabajo-profesional-con-Pull-requests)
   - [Utilizando Pull Requests en GitHub](#Utilizando-Pull-Requests-en-GitHub)
   - [Creando un Fork, contribuyendo a un repositorio](#Creando-un-Fork,-contribuyendo-a-un-repositorio)
