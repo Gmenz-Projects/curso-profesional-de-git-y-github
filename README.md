@@ -46,13 +46,14 @@ El contenido de este documento esta basado en el curso del mismo nombre dictado 
   - [Tu sitio web público con GitHub Pages](#Tu-sitio-web-público-con-GitHub-Pages)
   
 - [Multiples entornos de trabajo en Git](#Multiples-entornos-de-trabajo-en-Git)
-  - [Git Rebase: reorganizando el trabajo realizado](#Git-Rebase:-reorganizando-el-trabajo-realizado)
-  - [Git Stash: Guardar cambios en memoria y recuperarlos después ESTO ES IMPORTANTE LO VAMOS A USAR](#Git-Stash:-Guardar-cambios-en-memoria-y-recuperar-los-después-ESTO-ES-IMPORTANTE-LO-VAMOS-A-USAR)
-  - [Git Clean: limpiar tu proyecto de archivos no deseados](#Git-Clean:-limpiar-tu-proyecto-de-archivos-no-deseados)
-  - [Git cherry-pick: traer commits viejos al head de un branch](#Git-cherry-pick:-traer-commits-viejos-al-head-de-un-branch)
+
+  - [Git Rebase.Reorganizando el trabajo realizado](#Git-Rebase.Reorganizando-el-trabajo-realizado)
+  - [Git Stash.Guardar cambios en memoria y recuperarlos después ESTO ES IMPORTANTE LO VAMOS A USAR](#Git-Stash:Guardar-cambios-en-memoria-y-recuperar-los-después-ESTO-ES-IMPORTANTE-LO-VAMOS-A-USAR)
+  - [Git Clean.Limpiar tu proyecto de archivos no deseados](#Git-Clean.Limpiar-tu-proyecto-de-archivos-no-deseados)
+  - [Git cherry-pick.Traer commits viejos al head de un branch](#Git-cherry-pick.Traer-commits-viejos-al-head-de-un-branch)
 - [Comandos de Git para casos de emergencia](#Comandos-de-Git-para-casos-de-emergencia)
   - [Reconstruir commits en Git con amend](#Reconstruir-commits-en-Git-con-amend)
-  - [Git Reset y Reflog: úsese en caso de emergencia](#Git-Reset-y-Reflog:-úsese-en-caso-de-emergencia)
+  - [Git Reset y Reflog.Úsese en caso de emergencia](#Git-Reset-y-Reflog.Úsese-en-caso-de-emergencia)
   - [Buscar en archivos y commits de Git con Grep y log](#Buscar-en-archivos-y-commits-de-Git-con-Grep-y-log)
 - [Comandos y recursos colaborativos en Git y GitHub](#Comandos-y-recursos-colaborativos-en-Git-y-GitHub)
 
