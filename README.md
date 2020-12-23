@@ -328,6 +328,14 @@ En cambio, si usamos `git reset HEAD`, lo único que haremos será mover estos c
 Conclusión: Lo mejor que puedes hacer para salvar tu puesto y evitar un incendio en tu trabajo es conocer muy bien la diferencia y los riesgos de todos los comandos de Git. 
 # Flujo de trabajo básico en Git
 ## Flujo de trabajo básico con un repositorio remoto
+
+Para entrar en el modo de insertar texto en VIM cuando hacemos un commit tenemos que presionar escape + i 
+
+Para guardar escape shift z z
+
+
+Git show es para ver donde esta apuntando el HEAD
+
 Por ahora, nuestro proyecto vive únicamente en nuestra computadora. Esto significa que no hay forma de que otros miembros del equipo trabajen en él. 
 
 Para solucionar esto están los servidores remotos: un nuevo estado que deben seguir nuestros archivos para conectarse y trabajar con equipos de cualquier parte del mundo. 
@@ -391,7 +399,7 @@ Algunos comandos que pueden ayudar cuando colaboren con proyectos muy grandes de
 `git log > log.txt `- guardar los logs en un archivo txt 
 
 ## Introducción a las ramas o branches de Git
-Las ramas son la forma de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar una parte muy específica de la aplicación o simplemente experimentar. 
+Las ramas son la forma de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar una parte muy específica de la aplicación o simplemente experimentar. La rama principal por defecto es la rama master
 
 La cabecera o HEAD representan la rama y el commit de esa rama donde estamos trabajando. Por defecto, esta cabecera aparecerá en el último commit de nuestra rama principal. Pero podemos cambiarlo al crear una rama (git branch rama, git checkout -b rama) o movernos en el tiempo a cualquier otro commit de cualquier otra rama con los comandos (git reset id-commit, git checkout rama-o-id-commit) 
 
@@ -484,16 +492,16 @@ Sin embargo, esto solo funciona para las personas que quieren empezar a contribu
 
 Nos va a mostrar  la url (fetch)traer cosas y (push)enviar cosas 
 
-Hacemos `git push(enviele) origin(al origen,la url de la pagina q nos dieron) master(la rama master) `
+Hacemos `git push(enviele) origin(al origen,) master(la rama master) `
 
 Va a salir una pantallita que nos pide el mail y la contraseña de git,la colocamos 
 
-Nos va a salir un error,porque ahora el readme de github es nuestro master 
+Nos va a salir un error,porque ahora github es nuestro master 
 
  Tercero: Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes. Podemos usar `git fetch` y
- `git merge `o solo`git pull origin master --allow-unrelated-histories`(esto significa fusionar lo otro con la rama que tengo en local.
+ `git merge `o solo`git pull origin master --allow-unrelated-histories`(esto significa fusionar la rama remota con la rama que tengo en local por primera vez).Luego solo se usa git push origin master
 
- Por último, ahora sí podemos hacer `git push` para guardar los cambios de nuestro repositorio local en GitHub: 
+ Por último, ahora sí podemos hacer `git push origin master` para guardar los cambios de nuestro repositorio local en GitHub: 
 `git push origin master` (del master local al master de hithub) 
 
 
