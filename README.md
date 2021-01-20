@@ -496,7 +496,21 @@ Hacemos `git push(enviele) origin(al origen,) master(la rama master) `
 
 Va a salir una pantallita que nos pide el mail y la contraseña de git,la colocamos 
 
-Nos va a salir un error,porque ahora github es nuestro master 
+
+Nos va a salir un error,porque ahora github es nuestro master .ANTES SALIA ERROR AHORA SE CREAN 2 RAMAS,MAIN y MASTER porque un movimiento antiracismo noseque bla bla no se puede usar master  entonces...
+Solución a los que no puedan hacer pull o push:
+Ahora la rama master va a ser llamada main para poder trabajar en git hub.
+Para eso creamos la rama main y le pasamos todos los commit con el sig comando
+hacemos los add y commits que tengamos pendientes
+git branch main
+git branch -M main
+Esto es como si le cambiáramos el nombre de master por main
+Y por supuesto ahora los comandos deben ser:
+git push origin main
+git pull origin main
+git pull origin main --allow-unrelated-histories
+
+Bienvenido al mundo de la programación
 
  Tercero: Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes. Podemos usar `git fetch` y
  `git merge `o solo`git pull origin master --allow-unrelated-histories`(esto significa fusionar la rama remota con la rama que tengo en local por primera vez).Luego solo se usa git push origin master
